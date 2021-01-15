@@ -56,7 +56,7 @@ export class PhoneAuthPage implements OnInit {
                 confirmationResult.confirm(data.confirmationCode)
                   .then(result => {
                     loading.dismiss();
-                    this.router.navigate(['chat',{ phoneNumber : result.user.phoneNumber }]);
+                    this.router.navigate(['home']);
                     // return this.userDetails;
                     console.log('result :', result.user.phoneNumber);
                   }).catch(async (error) => {
