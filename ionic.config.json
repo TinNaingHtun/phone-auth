@@ -1,0 +1,7 @@
+{
+  "name": "recaptchaAuth",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

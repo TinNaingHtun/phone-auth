@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "phone-auth-27278": {
+      "hosting": {
+        "app": [
+          "phone-auth-27278"
+        ]
+      }
+    }
+  }
+}
